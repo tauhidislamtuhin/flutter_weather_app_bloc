@@ -56,10 +56,10 @@ class DailyWeatherScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    height: 30,
+                    height: 20,
                   ),
                   Container(
-                    padding: const EdgeInsets.all(25),
+                    padding: const EdgeInsets.all(15),
                     decoration: BoxDecoration(
                       gradient: const LinearGradient(
                         begin: Alignment.topRight,
@@ -95,10 +95,10 @@ class DailyWeatherScreen extends StatelessWidget {
                         ),
                         const CustomText(
                           text: "3-Low Health Risk",
-                          fontSize: 30,
+                          fontSize: 28,
                         ),
                         const SizedBox(
-                          height: 20,
+                          height: 15,
                         ),
                         Container(
                           height: 5,
@@ -116,7 +116,7 @@ class DailyWeatherScreen extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(
-                          height: 20,
+                          height: 15,
                         ),
                         const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,

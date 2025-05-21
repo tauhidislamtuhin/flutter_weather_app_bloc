@@ -13,8 +13,8 @@ class CustomCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width*0.45,
-      padding: const EdgeInsets.all(25),
+      width: MediaQuery.of(context).size.width*0.43,
+      padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
           gradient: const LinearGradient(
             begin: Alignment.topRight,
@@ -53,7 +53,7 @@ class CustomCard extends StatelessWidget {
           ),
           CustomText(
             text: centerText,
-            fontSize: 35,
+            fontSize: 25,
           ),
           const SizedBox(
             height: 10,
@@ -62,7 +62,7 @@ class CustomCard extends StatelessWidget {
           CustomText(
             text: bottomText,
             color: color ?? Colors.white70,
-            fontSize: fontSize ?? 18,
+            fontSize: fontSize ?? 17,
           )
         ],
       ),
